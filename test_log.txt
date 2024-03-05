@@ -1,0 +1,25 @@
+=== Dataset 1 ===
+Successfully loaded 5000000 entries from dataset1.
+=== Dataset 2 ===
+Successfully loaded 5000000 entries from dataset2.
+=== Chi-square Test ===
+Chi-square value: 5.032055385381875
+p-value (Chi-square): 0.024882352258906854
+=== Entropy Test ===
+Entropy for dataset1: 0.6931471764012254
+Entropy for dataset2: 0.6931467646878877
+=== Runs Test ===
+Number of runs in dataset1: 2501836
+Number of runs in dataset2: 2502397
+=== Monobit Test ===
+Monobit Test p-value for dataset1: BinomTestResult(k=2499772, n=5000000, alternative='two-sided', proportion_estimate=0.4999544, pvalue=0.8387581705186592)
+Monobit Test p-value for dataset2: BinomTestResult(k=2502280, n=5000000, alternative='two-sided', proportion_estimate=0.500456, pvalue=0.04146531093831754)
+=== Spectral Test ===
+Spectral Test mean magnitude for dataset1: 991.3518138534275
+Spectral Test mean magnitude for dataset2: 991.1984219803146
+=== Non-overlapping Template Matching Test ===
+Chi value for dataset1: 2.402540823728337, p-value: 0.12113835526603454
+Chi value for dataset2: 0.5199646354164583, p-value: 0.470856767903696
+=== Longest-Run Test ===
+Longest run in dataset1: 25
+Longest run in dataset2: 21
